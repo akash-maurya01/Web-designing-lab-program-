@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f6fa;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #0078ff;
+      color: white;
+      padding: 20px 0;
+    }
+
+    nav {
+      background-color: #eaf2fb;
+      padding: 15px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0078ff;
+      margin: 0 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #004aad;
+      text-decoration: underline;
+    }
+
+    section {
+      margin-top: 50px;
+    }
+
+    footer {
+      margin-top: 100px;
+      background-color: #0078ff;
+      color: white;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Website</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a company dedicated to providing high-quality products and services to our customers.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>We offer a range of professional services to help your business grow and succeed.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>You can reach us via email at <a href="mailto:info@example.com">info@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
